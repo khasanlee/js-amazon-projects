@@ -55,6 +55,7 @@ products.forEach((product)=>{
             </button>
             </div>
     `
+    updateCartQuantity()
 })
 
 document.querySelector('.js-products-grid').innerHTML = productsHTML
