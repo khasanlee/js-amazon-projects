@@ -110,6 +110,10 @@ document.querySelectorAll('.js-update-link').forEach((link)=>{
     link.addEventListener('click', ()=>{
         const productId = link.dataset.productId
         console.log(productId)
+        link.innerHTML = `
+        <input class="quantity-input">
+        <span class="save-quantity-link link-primary">Save</span>
+        `
     })
 })
 
