@@ -145,7 +145,7 @@ export function renderOrderSummary() {
         const cartQuantity = calculateCartQuantity()
     document.querySelector('.js-return-to-home-link').innerHTML = `${cartQuantity} items`
     }
-    updateCartQuantity()
+   // updateCartQuantity()
 
     document.querySelectorAll('.js-delivery-option').forEach((element)=>{
       element.addEventListener('click', ()=>{
