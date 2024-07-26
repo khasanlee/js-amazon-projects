@@ -31,7 +31,7 @@
   }
 
   getPrice() {
-    return `$${formatCurrency(this.priceCents)}`
+   return `$${formatCurrency(this.priceCents)}`
   }
   extraInfoHTML() {
     return ''
@@ -50,7 +50,34 @@
     return `<a href="${this.sizeChartLink}" target="_blank">Size Chart</a>`
   }
  }
+/*
+ const date = new Date()
+ console.log(date)
+ console.log(date.toLocaleTimeString())
+ */
 
+ /*
+ console.log(this)
+
+ const object2 = {
+  a: 2,
+  b: this.a
+ }
+  */
+/*
+ function logThis() {
+  console.log(this)
+ }
+ logThis()
+ logThis.call('hello')
+ this
+ const object3 = {
+  method: ()=>{
+    console.log(this)
+  }
+ }
+ object3.method()
+*/
  export const products = [
   {
     id: "e43638ce-6aa0-4b85-b27f-e1d07eb678c6",
